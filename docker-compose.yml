@@ -1,0 +1,7 @@
+services:
+  uiotos:
+    build: .
+    ports:
+      - "8999:8999"
+    restart: always
+
